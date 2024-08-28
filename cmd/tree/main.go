@@ -11,13 +11,6 @@ func main() {
 	fmt.Println("------------ begin ------------")
 
 	fmt.Println("------------ 1 ------------")
-	//
-	//treeArray := ytool.GetTree("./")
-	//
-	//tree, _ := json.Marshal(treeArray)
-	//fmt.Println(string(tree)) // []byte型なのでstringに変換
-
-	fmt.Println("------------ 2 ------------")
 
 	treeArray2 := dir.Tree{Name: "./"}
 
@@ -25,6 +18,12 @@ func main() {
 
 	tree2, _ := json.Marshal(treeArray2)
 	fmt.Println(string(tree2)) // []byte型なのでstringに変換
+
+	fmt.Println("------------ 2 ------------")
+	fmt.Println("------------ 3 ------------")
+	fmt.Println("------------ 4 ------------")
+	fmt.Println("------------ 5 ------------")
+	fmt.Println("------------ 6 ------------")
 
 	fmt.Println("------------ end ------------")
 
